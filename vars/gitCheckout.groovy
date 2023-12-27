@@ -1,4 +1,4 @@
-def call(Mao stageParams) {
+def call(Map stageParams) {
 
     checkout([
         $class: 'GitSCM',
